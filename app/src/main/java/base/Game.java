@@ -92,7 +92,7 @@ public class Game {
             }
             bsel--;
         }
-        int b = possible.get((int)((Math.random())*(possible.size())));
+        int b = possible.get((int)Math.round((Math.random())*(possible.size()-1)));
         ex.setFirst(a);
         ex.setSecond(b);
         ex.setSolution(a/b);
@@ -100,7 +100,7 @@ public class Game {
 
     private int getOperator(List<Integer> operators){
         int count = operators.size();
-        int op =  (int)((Math.random())*count);
+        int op =  (int)Math.round((Math.random())*count-1);
         return operators.get(op);
     }
     public List<Exercise> getExerciseList() {
