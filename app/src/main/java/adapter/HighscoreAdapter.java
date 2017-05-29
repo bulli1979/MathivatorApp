@@ -12,8 +12,7 @@ import util.Tool;
 
 import com.example.admin.mathivator.R;
 /**
- * Adapter for Plan Day List shows list and bring it for display using custom_plandy_List_item UI
- * Verantwortlich: Andreas Züger
+ 
  */
 
 public class HighscoreAdapter extends ArrayAdapter<Highscore> {
