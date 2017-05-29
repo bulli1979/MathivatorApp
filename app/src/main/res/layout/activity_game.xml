@@ -56,18 +56,24 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
             android:layout_height="wrap_content"
             android:text="@string/one"
-            android:onClick="setNumber"/>
+            android:onClick="setNumber"
+            style="@style/calcButtons"/>
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
             android:layout_height="wrap_content"
+            style="@style/calcButtons"
             android:text="@string/two"
             android:onClick="setNumber"/>
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
             android:layout_height="wrap_content"
+            style="@style/calcButtons"
             android:text="@string/three"
             android:onClick="setNumber"/>
     </LinearLayout>
@@ -76,17 +82,21 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
             android:layout_height="wrap_content"
+            style="@style/calcButtons"
             android:text="@string/four"
             android:onClick="setNumber"/>
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
             android:layout_height="wrap_content"
+            style="@style/calcButtons"
             android:text="@string/five"
             android:onClick="setNumber"/>
         <Button
-            android:layout_width="wrap_content"
+            style="@style/calcButtons"
             android:layout_height="wrap_content"
             android:text="@string/six"
             android:onClick="setNumber"/>
@@ -96,18 +106,15 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/calcButtons"
             android:text="@string/seven"
             android:onClick="setNumber"/>
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/calcButtons"
             android:text="@string/eight"
             android:onClick="setNumber"/>
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/calcButtons"
             android:text="@string/nine"
             android:onClick="setNumber"/>
     </LinearLayout>
@@ -116,18 +123,15 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/calcButtons"
             android:text="@string/back"
             android:onClick="onBack" />
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/calcButtons"
             android:text="@string/cero"
             android:onClick="setNumber"/>
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/calcButtons"
             android:text="@string/go"
             android:onClick="next"/>
     </LinearLayout>

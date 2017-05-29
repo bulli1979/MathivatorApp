@@ -26,7 +26,8 @@
             android:label="@string/title_activity_settings" />
         <activity
             android:name="base.GameActivity"
-            android:label="@string/play" />
+            android:label="@string/play"
+            android:screenOrientation="portrait"/>
         <activity android:name="base.HighscoreActivity"
             android:label="@string/highscore"></activity>
     </application>
